@@ -1,0 +1,50 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    block-size: 100vh;
+    background-image: url('https://ss-i.thgim.com/public/incoming/ymxuq3/article68200117.ece/alternates/LANDSCAPE_1200/AFP_34QF8WY.jpg'); /* Replace with your travel-themed background image */
+    background-size: cover;
+  }
+  
+  .login-title {
+    font-size: 36px;
+    color: #3265f1;
+    margin-bottom: 20px;
+  }
+  
+  .login-input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #3280e6;
+    background-color: transparent;
+    color: #3550e6;
+    font-size: 18px;
+    width: 300px;
+    outline: none;
+  }
+  
+  .login-input::placeholder {
+    color: #0a8bf5;
+  }
+  
+  .login-button, .guest-button, .register-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1c5be6;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 300px;
+  }
+  
+  .login-button:hover, .guest-button:hover, .register-button:hover {
+    background-color: #1b9be6;
+  }
+  
+  
